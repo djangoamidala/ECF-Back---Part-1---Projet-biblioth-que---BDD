@@ -31,4 +31,7 @@ GRANT ALL PRIVILEGES ON votre_base_de_donnees.* TO 'votre_utilisateur'@'localhos
 ```shell
 FLUSH PRIVILEGES;
 ```
-- Pour finir voux pouvez importer le fichier ecfsymfony.sql dans le dépôt, en cliquant sur la base de donnée et importer dans la barre du haut.
+
+# importation de la base de donnée
+- importer le fichier ecfsymfony.sql dans le dépôt, en cliquant sur la base de donnée et importer dans la barre du haut.
+- Pour finir vous pouvez importer le fichier add-random-info.sql pour ajouté les données de test. (Dans l'ecf 3 j'ai également les données directement avec faker, j'avais envie de savoir comment faire avec les deux méthodes, vous pouvez donc vous reporter à l'ecf 3 pour la méthode faker)
